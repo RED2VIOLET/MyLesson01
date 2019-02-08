@@ -12,7 +12,7 @@ public class PhotonConnect : MonoBehaviour {
  
         PhotonNetwork.ConnectUsingSettings (versionName);
 
-        Debug.Log ("Connecting to photon server...");
+        Debug.Log ("Photon Home");
 
     }
     private void OnConnectedToMaster() {
